@@ -1,0 +1,68 @@
+/* Components */
+
+body {
+    margin: 0;
+    background: #222222;
+    min-height: 100vh;
+    display: flex;
+    font-family: Roboto;
+}
+
+h1 {
+    color: #ff9800;
+    font-size: 50px;
+    margin: 0 0 80px 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #cccccc;
+    margin: 0 10px 0 0; 
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 300; 
+    margin: 0;
+}
+
+/* Classes */
+
+.character {
+
+    width: auto;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    background: #1a1a1a;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px -5px #000000;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.description {
+    padding: 25px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* IDs */
+
+#image {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+}
